@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Campatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Pagina </title>
+</head>
+<body>
+<div class="container">
+   <nav>
+    <ul>
+        <li>
+            <a>
+            <a href="index.html"> Sobre Mim </a>
+            </a>
+        </li>
+        <li>
+            <a>
+                <a href="filme.html"> Meu Filme Favorito </a>
+            </a>
+        </li>
+        <li>
+            <a>
+               <a href="livro.html"> Meu Livro Favorito </a> 
+            </a>
+        </li>
+    </ul>
+   </nav> 
+   <header>
+    <h1> Assassin´s Creed (guia definitivo) </h1>
+    <div class="certer" >
+  <a href="https://cdn.arvore.com.br/files.arvoredelivros.com.br/books/images/assassin-s-creed-guia-definitivo/intermediaria_9788579305535.jpg" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   title="Clique para ver a capa do livro em tamanho maior">
+    <img src="https://cdn.arvore.com.br/files.arvoredelivros.com.br/books/images/assassin-s-creed-guia-definitivo/intermediaria_9788579305535.jpg" 
+         alt="Capa do livro Assassin's Creed: Guia Definitivo" 
+         class="img-quadrada-cover">
+</a>
+    </div>
+    <h2>Meu Livro Favorito</h2>
+   </header>
+   <main>
+    <section>
+        <h3>Historia </h3>
+        <p>Que excelente pedido! A história de Assassin's Creed é vasta e complexa, abrangendo milênios e múltiplas mídias, mas se baseia no conflito eterno entre duas facções secretas:</p>
+        <p>1 A Irmandade dos Assassinos (originalmente Os Ocultos), que luta para preservar o livre arbítrio.</p>       
+        <p>2 A Ordem dos Templários (originalmente a Ordem dos Anciãos), que busca a paz através do controle.</p>
+        <p>Ambas as facções buscam artefatos de poder deixados pela Primeira Civilização (também conhecidos como Isu), seres avançados que vieram antes da humanidade.A narrativa é dividida em dois eixos: a história moderna (jogos com Desmond Miles, e depois com outros protagonistas anônimos ou Layla Hassan) e as memórias históricas (que jogamos no Animus).</p>
+    </section>
+   </main>
+    <main>
+    <section>
+        <h3> Resumo </h3>
+        <p>Assassin's Creed é uma série eletrizante que narra a história de Desmond, um jovem descendente de um dos maiores assassinos de todos os tempos. Por meio de seu DNA, é possível recuperar as memórias de seu antepassado, e essa ligação de sangue fará com que ele reviva momentos decisivos. Neste guia, você encontrará toda a trajetória de Desmond em Assassin's Creed I, II, Brotherhood, Revelations e III, e ainda descobrirá: A relação de Desmond com seus antepassados Altaïr e Ezio, As motivações de cada personagem, Peças e elementos que podem levar ao fim do mundo, Tudo sobre os elementos reais da franquia, incluindo objetos, períodos importantes da história e locais sagrados. Confira aqui todos os segredos dessa incrível série!</p>
+   </main>
+    <main>
+    <section>
+        <h3> Informações Técnicas </h3>
+        <p>Tipo de Leitor: Experiente, Idioma: Português, Categorias: Computação e Informática, Games.</p>
+    </section>
+   </main>
+   <footer>
+    <a href="https://github.com/erick203" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+     alt="GitHub Logo"></img>
+        <p> Github </p>
+    </a>
+     <a href="https://www.facebook.com/erickgabrielmonteiro" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" 
+     alt="Facebook Logo"></img>
+        <p> Facebook </p>
+    </a>
+     <a href="https://www.instagram.com/erick_monteiro19/" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+     alt="Instagram Logo"></img>
+        <p> Instagram </p>
+    </a>
+     <a href="https://www.linkedin.com/in/erick-gabriel-b0767b1a2/" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" 
+     alt="LinkedIn Logo"></img>
+        <p> Linkedim </p>
+    </a>
+   </footer>
+</div>
+<audio id="musicaFundo" autoplay loop>
+    <source src="./mp3/Rap do Assassin's Creed  Tauz RapGame 19 - Tauz Oficial (youtube).mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<script>
+    const musica = document.getElementById('musicaFundo');
+
+    // Tenta tocar automaticamente
+    musica.play().catch(() => {
+        // Se o navegador bloquear, ativa no primeiro clique
+        document.addEventListener('click', () => {
+            musica.play();
+        }, { once: true });
+    });
+</script>
+
+<script>
+    // Quando o usuário clicar em qualquer lugar da página
+    document.addEventListener('click', function() {
+        const musica = document.getElementById('musicaFundo');
+        musica.play();
+    }, { once: true }); // toca só uma vez
+</script>
+  musica.play();
+    }, { once: true }); // toca só uma vez
+</script>
+
+</body>
+
+</html>

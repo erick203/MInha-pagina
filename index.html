@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Campatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Pagina </title>
+</head>
+<body>
+<div class="container">
+   <nav>
+    <ul>
+        <li>
+            <a>
+            <a href="index.html"> Sobre Mim </a>
+            </a>
+        </li>
+        <li>
+            <a>
+                <a href="filme.html"> Meu Filme Favorito </a>
+            </a>
+        </li>
+        <li>
+            <a>
+               <a href="livro.html"> Meu livro Favorito </a> 
+            </a>
+        </li>
+    </ul>
+   </nav> 
+   <header>
+    <div class="certer" >
+    <img src="https://scontent-gig4-1.xx.fbcdn.net/v/t1.6435-9/136369171_2923515567894519_3262094954690756633_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEn410W9jN3jeFZ9TJcEg8vOAZATwZRp6A4BkBPBlGnoPsdJRr1U1EMjFsIhVKJ9AQE2pKVfnt_F41JiRvPeXAj&_nc_ohc=g0n_Pq9-88gQ7kNvwEVeQr6&_nc_oc=AdlZdWRdWYmrvJiX8UtPgTxtLJntDzpaviUgyfHbhmGqb2rOT_BYO4B_o8zhrnUHQMQ&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=6M1PdK-WpXNrUijDIuPz1Q&oh=00_AfdTQjeklK5XJ_DCxrmvdUJON7cf6oHnRUv5HK6Dz7TaTQ&oe=69073937"></img>
+    </div>
+    <h1> Erick Gabriel da Silva Monteiro </h1>
+    <h2>Futuro Desenvolvedor de Software</h2>
+   </header>
+   <main>
+    <section>
+        <h3> Sobre mim </h3>
+        <p>Olá! Meu nome é Erick e é um prazer me apresentar.
+
+Nasci em 9 de junho de 2000 e resido em São João de Meriti. Tenho a alegria de ser pai de uma linda princesa chamada, Alicia Vitória. As áreas que mais me interessam e o futebol e, profissionalmente, a área da informática.</p>
+    </section>
+   </main>
+    <main>
+    <section>
+        <h3> Formação </h3>
+        <p>Em busca de uma formação sólida em tecnologia, estou cursando o Técnico em Informática para Internet (IFRJ) e, paralelamente, o Tecnólogo em Análise e Desenvolvimento de Sistemas (Unicesumar). Essa combinação me proporciona uma visão abrangente, da infraestrutura à programação</p>
+    </section>
+   </main>
+    <main>
+    <section>
+        <h3> Cursos </h3>
+        <p>Minha jornada de estudos está bastante intensa, pois estou investindo em duas frentes de formação, ambas aqui em São João de Meriti.
+
+No IFRJ, estou fazendo o curso Técnico em Informática para Internet, onde adquiro conhecimentos práticos de infraestrutura de TI e as bases para a construção de websites. Paralelamente, na Unicesumar, curso o Tecnólogo em Análise e Desenvolvimento de Sistemas. Esse curso aprofunda minhas habilidades em lógica de programação, criação de sistemas robustos e análise de requisitos.
+
+Essa dupla formação é um diferencial, pois estou construindo uma base de conhecimento que vai da prática técnica à análise estratégica de software.</p>
+    </section>
+   </main>
+   <footer>
+    <a href="https://github.com/erick203" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+     alt="GitHub Logo"></img>
+        <p> Github </p>
+    </a>
+     <a href="https://www.facebook.com/erickgabrielmonteiro" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" 
+     alt="Facebook Logo"></img>
+        <p> Facebook </p>
+    </a>
+     <a href="https://www.instagram.com/erick_monteiro19/" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+     alt="Instagram Logo"></img>
+        <p> Instagram </p>
+    </a>
+     <a href="https://www.linkedin.com/in/erick-gabriel-b0767b1a2/" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" 
+     alt="LinkedIn Logo"></img>
+        <p> Linkedim </p>
+    </a>
+   </footer>
+</div>
+<audio id="musicaFundo" autoplay loop>
+    <source src="./mp3/todos-so-rock-1-2-3.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<script>
+    const musica = document.getElementById('musicaFundo');
+
+    // Tenta tocar automaticamente
+    musica.play().catch(() => {
+        // Se o navegador bloquear, ativa no primeiro clique
+        document.addEventListener('click', () => {
+            musica.play();
+        }, { once: true });
+    });
+</script>
+
+<script>
+    // Quando o usuário clicar em qualquer lugar da página
+    document.addEventListener('click', function() {
+        const musica = document.getElementById('musicaFundo');
+        musica.play();
+    }, { once: true }); // toca só uma vez
+</script>
+  musica.play();
+    }, { once: true }); // toca só uma vez
+</script>
+</body>
+
+</html>
