@@ -40,10 +40,9 @@ h4 {
     font-family: var(--fonte-titulo);
     color: var(--cor-principal);
     text-align: center;
-    font-size: 2.2rem; 
-    padding: 30px 0 15px;
-    letter-spacing: 2px;
-      text-shadow: 0 0 10px rgba(91, 190, 66, 0.5); 
+    margin-bottom: 5px;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(91, 190, 66, 0.5); 
 }
 
 h1 {
@@ -233,6 +232,7 @@ footer img {
         height: 300px;
     }
 }
+
 
 
 
