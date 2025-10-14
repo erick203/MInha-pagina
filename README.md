@@ -6,6 +6,20 @@ Criação com HTML, CSS e JavaScript.
 
 "Este é o resultado da minha atividade prática de programação front-end, focada na criação e estilização de um componente Minha Pagina utilizando HTML, CSS e JavaScript."
 
-<div>
-  <img width="1277" height="672" alt="Captura de tela 2025-10-08 001416" src="" />
+## Um Pequeno Resumo Sobre Mim
+
+<div align=center>
+<img width="378" height="680" alt="sobre" src="https://github.com/user-attachments/assets/4d2de714-5070-452d-9491-c572599fbeca" />
+</div>
+
+## O Meu Filme Favorito
+
+<div align=center>
+<img width="378" height="680" alt="filme0" src="https://github.com/user-attachments/assets/2f401253-91b5-4565-a956-282e286d6f3a" />
+</div>
+  
+## O Meu Livro Favorito
+
+<div align=center>
+<img width="378" height="680"" alt="livro" src="https://github.com/user-attachments/assets/63042bcd-67c4-489b-9092-d35eac5c9b38" />
 </div>
