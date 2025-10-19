@@ -1,10 +1,10 @@
 ## Minha Pagina
 
-Criação com HTML, CSS e JavaScript.
+"Este artefato é o resultado final da minha atividade prática de programação front-end, focado no desenvolvimento e estilização de uma página web completa, utilizando HTML, CSS e JavaScript."
 
 ## Descrição
 
-"Este artefato é o resultado final da minha atividade prática de programação front-end, focado no desenvolvimento e estilização de uma página web completa, utilizando HTML, CSS e JavaScript."
+"Projeto Front-End Completo: Página Interativa com Interface Tabulada. Este trabalho prático demonstra minha proficiência na integração de HTML, CSS e JavaScript. A solução abrange a estrutura semântica (HTML) e a estilização responsiva (CSS), com o JavaScript sendo fundamental para a interatividade e a lógica da navegação entre as três abas ('Resumo Sobre Mim', 'Filme Favorito' e 'Livro Favorito'), resultando em uma página web totalmente funcional e organizada."
 
 ## Um Pequeno Resumo Sobre Mim
 
