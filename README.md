@@ -4,7 +4,7 @@ Criação com HTML, CSS e JavaScript.
 
 ## Descrição
 
-"Este é o resultado da minha atividade prática de programação front-end, focada na criação e estilização de um componente Minha Pagina utilizando HTML, CSS e JavaScript."
+"Este artefato é o resultado final da minha atividade prática de programação front-end, focado no desenvolvimento e estilização de uma página web completa, utilizando HTML, CSS e JavaScript."
 
 ## Um Pequeno Resumo Sobre Mim
 
